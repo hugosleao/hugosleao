@@ -1,10 +1,11 @@
+
 <h1 align="center">Hey Everyone 👋, meu nome é Hugo Leão</h1>
 
 <div align="center">
   <img src="https://github.com/hugosleao/hugosleao/blob/main/banner.png" alt="DevOpsShack Banner">
 </div>
 
-<h3 align="center">🇧🇷 <strong>DevOps Engineer</strong> | Apaixonado por tech ⚙️<br>Nas horas vagas: IA, leitura e muita curiosidade 🤖📚🚀</h3>
+<h3 align="center">🇧🇷 <strong>DevOps Engineer & Future Salesforce Architect</strong> ⚙️<br>Nas horas vagas: IA, leitura e muita curiosidade 🤖📚🚀</h3>
 
 <p align="center">
   <a href="https://github.com/hugosleao">
@@ -24,63 +25,64 @@
   <img src="https://komarev.com/ghpvc/?username=hugosleao&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 
-- 👨‍💻 Todos os meus projetos estão disponíveis em [https://github.com/hugosleao](https://github.com/hugosleao)  
-- 💬 Fale comigo sobre **DevOps, IaC, automação de infraestrutura e observabilidade**  
-- 📫 Como entrar em contato: **hugosleao.dev@gmail.com**  
+---
+
+### 👨‍💼 Sobre Mim & 🤝 Colaborações
+
+🎯 Profissional com sólida experiência em **DevOps**, **Cloud Computing** e **Automação**, agora expandindo ativamente minha trajetória para o ecossistema **Salesforce**.
+
+💻 Atualmente, estudando e aplicando práticas de **Salesforce DevOps** e **Arquitetura de Soluções Salesforce** através do **Trailhead** e projetos pessoais.
+
+🛠️ Explorando integrações de Salesforce com **AWS**, **CI/CD**, e práticas modernas de **DevOps** como **Salesforce CLI** e **DevOps Center**.
+
+📚 Entusiasta de **Inteligência Artificial**, tecnologias emergentes e **transformação digital**.
+
+💼 Aberto a **colaborações em projetos DevOps e Salesforce**, especialmente em iniciativas que envolvam **integração de sistemas** e **automação de processos**.
+
+📧 Entre em contato: [hugosleao.dev@gmail.com](mailto:hugosleao.dev@gmail.com)
+
+> *"Transformando desafios em soluções eficientes através da automação, inovação e, agora, com a força do ecossistema Salesforce."*
 
 ---
 
-<h3 align="left">Conecte-se comigo:</h3>
-<p align="left">
-  <a href="https://linkedin.com/in/hugosleao" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
-  </a>
-  <a href="https://medium.com/@hugosleao" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="Medium" height="30" width="40" />
-  </a>
-</p>
+### 🚀 Nova Jornada com Salesforce
 
+🔗 Atualmente focado em trilhas e certificações como **Salesforce Administrator**, **Platform Developer I**, com vistas futuras para **Salesforce Architect**.
 
+🌟 Aplicando minha bagagem em **Integração de Sistemas**, **APIs** e **DevOps** para construir soluções Salesforce escaláveis, seguras e automatizadas.
+
+📝 Em breve, novos artigos no **Medium** e **LinkedIn** sobre como **profissionais DevOps podem se destacar no ecossistema Salesforce**.
 
 ---
 
-<h3 align="left">Languages and Tools:</h3>
+### 🛠️ Habilidades Técnicas
+
+- **Salesforce:** Trailhead (Admin, Dev, Architect), CLI, DevOps Center
+- **Cloud:** AWS, Azure
+- **Automação:** Terraform, Ansible
+- **CI/CD:** GitHub Actions, Azure DevOps
+- **Containers:** Docker, Kubernetes
+- **Integração:** APIs REST/SOAP, Event-Driven Architecture
+- **Monitoramento:** Grafana, Prometheus
+- **Linguagens:** Python, Bash
+
+---
+
 <p align="left">
-  <!-- ☁️ Cloud & IaC -->
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40" height="40"/>
   <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg" width="40" height="40"/>
   <img src="https://cdn.worldvectorlogo.com/logos/ansible.svg" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/chefio/chefio-icon.svg" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/saltstack/salt/master/doc/_static/salt-icon.png" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/vagrantup/vagrantup-icon.svg" width="40" height="40"/>
-
-  <!-- ⚙️ CI/CD & DevOps -->
-  <img src="https://www.vectorlogo.zone/logos/helmsh/helmsh-icon.svg" width="40" height="40"/>
-  <img src="https://argo-cd.readthedocs.io/en/stable/assets/logo.png" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" width="40" height="40"/>
-
-  <!-- 🐳 Containers & Orchestration -->
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" width="40" height="40"/>
   <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" width="40" height="40"/>
-
-  <!-- 🔍 Monitoring & Observability -->
   <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" width="40" height="40"/>
   <img src="https://www.vectorlogo.zone/logos/prometheusio/prometheusio-icon.svg" width="40" height="40"/>
-
-  <!-- 💻 Languages for DevOps -->
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" width="40" height="40"/>
-
-  <!-- 🔧 Tools & Utilities -->
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/salesforce/salesforce-icon.svg" width="40" height="40"/>
 </p>
 
+---
 
 <p>
   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=hugosleao&show_icons=true&locale=en&layout=compact&theme=vue&hide_border=true" alt="Top Langs" />
@@ -90,7 +92,6 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=hugosleao&show_icons=true&locale=en&theme=vue&hide_border=true" alt="GitHub Stats" />
 </p>
 
----
 <table>
   <tr>
     <td>
@@ -101,19 +102,3 @@
     </td>
   </tr>
 </table>
-
----
-
-### 👨‍💼 Sobre Mim & 🤝 Colaborações
-
-🎯 Profissional de TI com sólida experiência em **DevOps** e **Cloud Computing**, atuando como DevOps Engineering em uma empresa de mercado
-
-📚 Entusiasta de **Inteligência Artificial** e tecnologias emergentes, sempre em busca de aprendizado contínuo
-
-💼 Aberto a **colaborações em projetos DevOps**
-
-📧 Entre em contato: [hugosleao.dev@gmail.com](mailto:hugosleao.dev@gmail.com)
-
-> *"Transformando desafios em soluções eficientes através da automação e inovação."*
-
-
