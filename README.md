@@ -47,14 +47,14 @@ DevOps  ────────────────────────
 ## ✅ Platform Capabilities
 
 ```
-✔  Self-service service provisioning      — developer fills form, platform delivers
-✔  GitOps continuous delivery             — Git is the only source of truth
-✔  Infrastructure abstraction             — Crossplane Compositions for RDS · S3 · SQS
-✔  Policy as code                         — Kyverno enforces standards at admission
-✔  Developer portal                       — Backstage catalog, templates, scorecards
-✔  Control plane architecture             — Go Operators with reconciliation loops
-✔  Zero static credentials               — GitHub Actions OIDC + AWS STS
-✔  Automated TLS                         — cert-manager + Let's Encrypt + Route53
+✔  Self-service service provisioning  — developer fills form, platform delivers
+✔  GitOps continuous delivery         — Git is the only source of truth
+✔  Infrastructure abstraction         — Crossplane Compositions for RDS · S3 · SQS
+✔  Policy as code                     — Kyverno enforces standards at admission
+✔  Developer portal                   — Backstage catalog, templates, scorecards
+✔  Control plane architecture         — Go Operators with reconciliation loops
+✔  Zero static credentials            — GitHub Actions OIDC + AWS STS
+✔  Automated TLS                      — cert-manager + Let's Encrypt + Route53
 ```
 
 ---
@@ -71,7 +71,7 @@ This GitHub profile documents my ongoing work designing and experimenting with *
 
 ### [platform-engineering-reference](https://github.com/hugosleao/platform-engineering-reference)
 
-Reference implementation of a **Kubernetes-based Internal Developer Platform** using Backstage, ArgoCD, Crossplane and AWS.
+Reference architecture for building **Internal Developer Platforms on Kubernetes** — Backstage, ArgoCD, Crossplane and AWS.
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
