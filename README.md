@@ -188,6 +188,16 @@ Self-service           →  Developer Portal          →  Backstage
 
 ---
 
+## 💡 Engineering Philosophy
+
+Platform engineering should **reduce cognitive load for developers** — not add complexity to it.
+
+Good platforms provide safe, self-service infrastructure through well-designed abstractions. Developers should focus on business problems, not on how to configure a database, set up a CI/CD pipeline or manage AWS credentials.
+
+> The best platform is the one developers don't notice — it just works.
+
+---
+
 ## 🧭 Architecture Interests
 
 ```
