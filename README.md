@@ -21,7 +21,7 @@ I build **Internal Developer Platforms** that eliminate the friction between wri
 
 My focus is on **control plane architecture** — systems where a developer requests a service, and the platform automatically provisions the repository, CI/CD pipeline, infrastructure and observability. No tickets. No manual steps. No AWS console access.
 
-Currently evolving from **DevOps operations** into **Platform Engineering and Cloud Architecture**, applying architectural patterns from industry leaders like Spotify, Netflix and Mercado Livre to real production-grade labs.
+Specializing in **Platform Engineering and Cloud Architecture** after years building DevOps automation and cloud infrastructure — applying architectural patterns from industry leaders like Spotify, Netflix and Mercado Livre to real production-grade labs.
 
 ```
 DevOps  ──────────────────────────────────────────────────▶  Platform Engineering
@@ -87,7 +87,9 @@ graph TD
     GH["📦 GitHub\nrepo · CI/CD · branch protection"]
     GR["📂 gitops-repo\nArgoCD Apps · Crossplane Claims"]
     ARGO["🔄 ArgoCD\nGitOps Engine · auto-sync"]
-    EKS["☸️ EKS Cluster\nWorkloads · Crossplane · Kyverno"]
+    POL["🛡️ Policy Layer\nKyverno · admission control"]
+    OBS["📊 Observability\nPrometheus · Grafana · audit log"]
+    EKS["☸️ EKS Cluster\nWorkloads · Crossplane"]
     AWS["☁️ AWS Infrastructure\nRDS · S3 · SQS · ECR"]
 
     DEV --> BS
@@ -95,8 +97,10 @@ graph TD
     API --> GH
     API --> GR
     GR --> ARGO
-    ARGO --> EKS
+    ARGO --> POL
+    POL --> EKS
     EKS --> AWS
+    EKS --> OBS
 
     style DEV fill:#1f2937,stroke:#00ADD8,color:#fff
     style BS  fill:#1f2937,stroke:#9BF0E1,color:#fff
@@ -104,6 +108,8 @@ graph TD
     style GH  fill:#1f2937,stroke:#6e7681,color:#fff
     style GR  fill:#1f2937,stroke:#6e7681,color:#fff
     style ARGO fill:#1f2937,stroke:#EF7B4D,color:#fff
+    style POL fill:#1f2937,stroke:#c084fc,color:#fff
+    style OBS fill:#1f2937,stroke:#F46800,color:#fff
     style EKS fill:#1f2937,stroke:#326CE5,color:#fff
     style AWS fill:#1f2937,stroke:#FF9900,color:#fff
 ```
@@ -201,6 +207,7 @@ Self-service           →  Developer Portal          →  Backstage
 | **API Design Patterns** | JJ Geewax | Control plane APIs, resource lifecycle |
 | **Crafting Engineering Strategy** | Will Larson | Platform as product, engineering strategy |
 | **Team Topologies** | Skelton & Pais | Platform team model, cognitive load, fast flow |
+| **AWS SAA-C03** | Amazon | Cloud architecture, services, networking *(in progress)* |
 
 ---
 
