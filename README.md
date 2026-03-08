@@ -223,10 +223,8 @@ Self-service           →  Developer Portal          →  Backstage
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=hugosleao&show_icons=true&theme=dark&hide_border=true&count_private=true&bg_color=0d1117&title_color=00ADD8&icon_color=00ADD8" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hugosleao&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ADD8&langs_count=6" />
-
-
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hugosleao&show_icons=true&theme=dark&hide_border=true&count_private=true&bg_color=0d1117&title_color=00ADD8&icon_color=00ADD8)](https://github.com/hugosleao)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hugosleao&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ADD8&langs_count=6)](https://github.com/hugosleao)
 
 </div>
 
