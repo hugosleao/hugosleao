@@ -17,11 +17,9 @@
 
 ## About
 
-I build **Internal Developer Platforms** that eliminate the friction between writing code and running it in production.
+My background is in DevOps and cloud automation, and today my focus is on **Platform Engineering and Cloud Architecture** — building and evolving cloud-native platforms that enable teams to ship software faster with reliable infrastructure, automation and strong engineering practices.
 
-My focus is on **control plane architecture** — systems where a developer requests a service, and the platform automatically provisions the repository, CI/CD pipeline, infrastructure and observability. No tickets. No manual steps. No AWS console access.
-
-My background is in DevOps and cloud automation, and today my studies and hands-on labs are focused on **Platform Engineering and Cloud Architecture** — exploring how **Internal Developer Platforms, control planes and cloud-native delivery systems** are designed and operated, inspired by architectural patterns used at companies like **Spotify, Netflix and Mercado Livre**.
+Inspired by how companies like **Spotify, Netflix and Mercado Livre** design Internal Developer Platforms — where a developer requests a service and the platform automatically provisions the repository, CI/CD, infrastructure and observability. No tickets. No manual steps. No AWS console access.
 
 ```
 DevOps  ──────────────────────────────────────────────────▶  Platform Engineering
@@ -187,6 +185,16 @@ Self-service           →  Developer Portal          →  Backstage
 ```
 
 > Technology is secondary. **Architectural thinking is primary.**
+
+---
+
+## 💡 Engineering Philosophy
+
+Platform engineering should **reduce cognitive load for developers** — not add complexity to it.
+
+Good platforms provide safe, self-service infrastructure through well-designed abstractions. Developers should focus on business problems, not on how to configure a database, set up a CI/CD pipeline or manage AWS credentials.
+
+> The best platform is the one developers don't notice — it just works.
 
 ---
 
