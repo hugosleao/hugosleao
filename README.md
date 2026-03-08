@@ -44,6 +44,21 @@ DevOps  ────────────────────────
 
 ---
 
+## ✅ Platform Capabilities
+
+```
+✔  Self-service service provisioning      — developer fills form, platform delivers
+✔  GitOps continuous delivery             — Git is the only source of truth
+✔  Infrastructure abstraction             — Crossplane Compositions for RDS · S3 · SQS
+✔  Policy as code                         — Kyverno enforces standards at admission
+✔  Developer portal                       — Backstage catalog, templates, scorecards
+✔  Control plane architecture             — Go Operators with reconciliation loops
+✔  Zero static credentials               — GitHub Actions OIDC + AWS STS
+✔  Automated TLS                         — cert-manager + Let's Encrypt + Route53
+```
+
+---
+
 ## 🚀 Featured Project
 
 <div align="center">
@@ -62,6 +77,51 @@ DevOps  ────────────────────────
 > Production-grade **Internal Developer Platform** on Kubernetes.
 > Same architecture principles used by **Spotify · Netflix · Mercado Livre · Uber**.
 
+**Internal Developer Platform Architecture**
+
+```
+                    ┌─────────────────────────────┐
+                    │        DEVELOPER             │
+                    │  fills form in Backstage     │
+                    └──────────────┬──────────────┘
+                                   │
+                    ┌──────────────▼──────────────┐
+                    │      Backstage               │
+                    │   Developer Portal (IDP)     │
+                    └──────────────┬──────────────┘
+                                   │
+                    ┌──────────────▼──────────────┐
+                    │    Platform API              │
+                    │  Go Operator (controller-    │
+                    │  runtime) — Reconcile Loop   │
+                    └──────┬───────────┬──────────┘
+                           │           │
+             ┌─────────────▼─┐   ┌────▼──────────────┐
+             │  GitHub        │   │  gitops-repo       │
+             │  · repo        │   │  · ArgoCD Apps     │
+             │  · CI/CD       │   │  · Crossplane      │
+             │  · protection  │   │    Claims          │
+             └───────────────┘   └────────┬───────────┘
+                                          │
+                        ┌─────────────────▼───────────────┐
+                        │            ArgoCD                │
+                        │   GitOps Engine — syncs Git      │
+                        │   to cluster automatically       │
+                        └──────────┬──────────────────────┘
+                                   │
+               ┌───────────────────▼──────────────────┐
+               │           EKS Cluster                 │
+               │   Workloads · Crossplane · Kyverno    │
+               └───────────────────┬──────────────────┘
+                                   │
+               ┌───────────────────▼──────────────────┐
+               │         AWS Infrastructure            │
+               │        RDS · S3 · SQS · ECR           │
+               └──────────────────────────────────────┘
+```
+
+**What makes it different:** a Kubernetes **Operator** (Go + controller-runtime) continuously reconciles state — if a resource is deleted, it's recreated automatically. No manual intervention.
+
 ```
 Developer fills a form in Backstage
   │
@@ -73,8 +133,6 @@ Developer fills a form in Backstage
   │
   └──▶ Developer gets a running service in minutes
 ```
-
-**What makes it different:** a Kubernetes **Operator** (Go + controller-runtime) continuously reconciles state — if a resource is deleted, it's recreated automatically. No manual intervention.
 
 ---
 
@@ -130,6 +188,21 @@ Self-service           →  Developer Portal          →  Backstage
 
 ---
 
+## 🧭 Architecture Interests
+
+```
+• Internal Developer Platforms (IDP)
+• Control Plane Architecture
+• Cloud Native Systems Design
+• Developer Experience Engineering
+• Platform APIs and Infrastructure Abstraction
+• GitOps and Continuous Delivery Systems
+• Kubernetes Operators and CRD-driven workflows
+• Policy as Code and Platform Governance
+```
+
+---
+
 ## 📚 Learning Journey
 
 | Book | Author | What it influences |
@@ -150,9 +223,7 @@ Self-service           →  Developer Portal          →  Backstage
 <img height="160" src="https://github-readme-stats.vercel.app/api?username=hugosleao&show_icons=true&theme=dark&hide_border=true&count_private=true&bg_color=0d1117&title_color=00ADD8&icon_color=00ADD8" />
 <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hugosleao&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ADD8&langs_count=6" />
 
-</div>
-
-<div align="center">
+<br/>
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=hugosleao&theme=dark&hide_border=true&background=0d1117&ring=00ADD8&fire=00ADD8&currStreakLabel=00ADD8)
 
