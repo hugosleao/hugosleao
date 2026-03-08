@@ -21,7 +21,7 @@ I build **Internal Developer Platforms** that eliminate the friction between wri
 
 My focus is on **control plane architecture** — systems where a developer requests a service, and the platform automatically provisions the repository, CI/CD pipeline, infrastructure and observability. No tickets. No manual steps. No AWS console access.
 
-Specializing in **Platform Engineering and Cloud Architecture** after years building DevOps automation and cloud infrastructure — applying architectural patterns from industry leaders like Spotify, Netflix and Mercado Livre to real production-grade labs.
+My background is in DevOps and cloud automation, and today my studies and hands-on labs are focused on **Platform Engineering and Cloud Architecture** — exploring how **Internal Developer Platforms, control planes and cloud-native delivery systems** are designed and operated, inspired by architectural patterns used at companies like **Spotify, Netflix and Mercado Livre**.
 
 ```
 DevOps  ──────────────────────────────────────────────────▶  Platform Engineering
@@ -59,11 +59,19 @@ DevOps  ────────────────────────
 
 ---
 
+## 🔬 Platform Engineering Lab
+
+This GitHub profile documents my ongoing work designing and experimenting with **Internal Developer Platforms, Kubernetes control planes and cloud-native platform architectures**.
+
+---
+
 ## 🚀 Featured Project
 
 <div align="center">
 
 ### [platform-engineering-reference](https://github.com/hugosleao/platform-engineering-reference)
+
+Reference implementation of a **Kubernetes-based Internal Developer Platform** using Backstage, ArgoCD, Crossplane and AWS.
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
