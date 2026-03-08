@@ -79,45 +79,33 @@ DevOps  ────────────────────────
 
 **Internal Developer Platform Architecture**
 
-```
-                    ┌─────────────────────────────┐
-                    │        DEVELOPER             │
-                    │  fills form in Backstage     │
-                    └──────────────┬──────────────┘
-                                   │
-                    ┌──────────────▼──────────────┐
-                    │      Backstage               │
-                    │   Developer Portal (IDP)     │
-                    └──────────────┬──────────────┘
-                                   │
-                    ┌──────────────▼──────────────┐
-                    │    Platform API              │
-                    │  Go Operator (controller-    │
-                    │  runtime) — Reconcile Loop   │
-                    └──────┬───────────┬──────────┘
-                           │           │
-             ┌─────────────▼─┐   ┌────▼──────────────┐
-             │  GitHub        │   │  gitops-repo       │
-             │  · repo        │   │  · ArgoCD Apps     │
-             │  · CI/CD       │   │  · Crossplane      │
-             │  · protection  │   │    Claims          │
-             └───────────────┘   └────────┬───────────┘
-                                          │
-                        ┌─────────────────▼───────────────┐
-                        │            ArgoCD                │
-                        │   GitOps Engine — syncs Git      │
-                        │   to cluster automatically       │
-                        └──────────┬──────────────────────┘
-                                   │
-               ┌───────────────────▼──────────────────┐
-               │           EKS Cluster                 │
-               │   Workloads · Crossplane · Kyverno    │
-               └───────────────────┬──────────────────┘
-                                   │
-               ┌───────────────────▼──────────────────┐
-               │         AWS Infrastructure            │
-               │        RDS · S3 · SQS · ECR           │
-               └──────────────────────────────────────┘
+```mermaid
+graph TD
+    DEV(["👤 Developer\nfills form in Backstage"])
+    BS["🖥️ Backstage\nDeveloper Portal · IDP"]
+    API["⚙️ Platform API\nGo Operator · Reconcile Loop"]
+    GH["📦 GitHub\nrepo · CI/CD · branch protection"]
+    GR["📂 gitops-repo\nArgoCD Apps · Crossplane Claims"]
+    ARGO["🔄 ArgoCD\nGitOps Engine · auto-sync"]
+    EKS["☸️ EKS Cluster\nWorkloads · Crossplane · Kyverno"]
+    AWS["☁️ AWS Infrastructure\nRDS · S3 · SQS · ECR"]
+
+    DEV --> BS
+    BS --> API
+    API --> GH
+    API --> GR
+    GR --> ARGO
+    ARGO --> EKS
+    EKS --> AWS
+
+    style DEV fill:#1f2937,stroke:#00ADD8,color:#fff
+    style BS  fill:#1f2937,stroke:#9BF0E1,color:#fff
+    style API fill:#1f2937,stroke:#00ADD8,color:#fff
+    style GH  fill:#1f2937,stroke:#6e7681,color:#fff
+    style GR  fill:#1f2937,stroke:#6e7681,color:#fff
+    style ARGO fill:#1f2937,stroke:#EF7B4D,color:#fff
+    style EKS fill:#1f2937,stroke:#326CE5,color:#fff
+    style AWS fill:#1f2937,stroke:#FF9900,color:#fff
 ```
 
 **What makes it different:** a Kubernetes **Operator** (Go + controller-runtime) continuously reconciles state — if a resource is deleted, it's recreated automatically. No manual intervention.
