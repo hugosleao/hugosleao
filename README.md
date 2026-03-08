@@ -89,16 +89,16 @@ Reference architecture for building **Internal Developer Platforms on Kubernetes
 
 ```mermaid
 graph TD
-    DEV(["👤 Developer\nfills form in Backstage"])
-    BS["🖥️ Backstage\nDeveloper Portal · IDP"]
-    API["⚙️ Platform API\nGo Operator · Reconcile Loop"]
-    GH["📦 GitHub\nrepo · CI/CD · branch protection"]
-    GR["📂 gitops-repo\nArgoCD Apps · Crossplane Claims"]
-    ARGO["🔄 ArgoCD\nGitOps Engine · auto-sync"]
-    POL["🛡️ Policy Layer\nKyverno · admission control"]
-    OBS["📊 Observability\nPrometheus · Grafana · audit log"]
-    EKS["☸️ EKS Cluster\nWorkloads · Crossplane"]
-    AWS["☁️ AWS Infrastructure\nRDS · S3 · SQS · ECR"]
+    DEV(["👤 Developer<br/>fills form in Backstage"])
+    BS["🖥️ Backstage<br/>Developer Portal · IDP"]
+    API["⚙️ Platform API<br/>Go Operator · Reconcile Loop"]
+    GH["📦 GitHub<br/>repo · CI/CD · branch protection"]
+    GR["📂 gitops-repo<br/>ArgoCD Apps · Crossplane Claims"]
+    ARGO["🔄 ArgoCD<br/>GitOps Engine · auto-sync"]
+    POL["🛡️ Policy Layer<br/>Kyverno · admission control"]
+    OBS["📊 Observability<br/>Prometheus · Grafana · audit log"]
+    EKS["☸️ EKS Cluster<br/>Workloads · Crossplane"]
+    AWS["☁️ AWS Infrastructure<br/>RDS · S3 · SQS · ECR"]
 
     DEV --> BS
     BS --> API
